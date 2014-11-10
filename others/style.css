@@ -1,0 +1,61 @@
+body {
+
+    margin: 0 auto;
+    background:url(background.jpg);
+    padding:0;
+    background-attachment:fixed;
+
+}
+
+
+a:visited {
+    color: blue;
+    background-color: transparent;
+}
+
+.catalogue{
+    font-size: 24pt;
+    color: white;
+    width:25%;
+    float:left;
+    background-color: black;
+    border-right:5px solid #800;
+    overflow: scroll;
+    height: 100%;
+}
+
+
+.shrink {
+    width:1%;
+    background-color:#333;
+    border:5px solid #333;
+    float:left;
+    height:100%;
+}
+
+
+.shrink_two{
+    width:30px;
+    height:30px;
+    background-color:#333;
+}
+
+.content{
+    font-size:16pt;
+    color:white;
+    height: 100%;
+    background-color:rgba(0,0,0,0.5);
+    overflow:scroll;
+    line-height:50%;
+}
+
+.project{
+    padding-left:20px;
+    font-size:20pt;
+    color:white;
+}
+
+
+.pro_content{}
+.file_content{line-height:100%}
+.file{font-size:12pt;}
